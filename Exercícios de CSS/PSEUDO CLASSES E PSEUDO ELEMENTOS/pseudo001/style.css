@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: rgb(58, 231, 5);
+}
+
+a:active{
+    color: purple;
+}

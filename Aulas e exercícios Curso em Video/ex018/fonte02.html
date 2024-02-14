@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'dash';
+            src: url('fontes/Dash.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (oft)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */ 
+
+        }
+        
+        @font-face {
+            font-family: face;
+            src: url('fontes/video games.ttf') format('truetype');
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'face', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        p{
+            font-family: 'dash';
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro pariatur, laborum eveniet culpa consectetur ipsam sed eaque beatae nihil sit laboriosam ex placeat quis minus ab minima reiciendis hic.</p>
+</body>
+</html>

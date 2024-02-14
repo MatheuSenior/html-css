@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(242, 242, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: rgb(64, 64, 64);
+}
+h2 {
+    color: rgb(174, 185, 191);
+}
+
+p {
+    color: rgb(13, 13, 13);
+    font-size: 17px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #404040;
+}
+
+.centro{
+    margin: 220px;
+    color: #000000;
+}
+
+

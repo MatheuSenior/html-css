@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google fontes</title>
+    <style>
+        @font-face {
+            font-family: 'dash';
+            src: url('fontes/Dash.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (oft)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */ 
+
+        }
+        body{
+            @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+            @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+            @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1{
+            font-family: 'Fredericka the Great', cursive;
+            font-size: 55px;
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+            font-family: 'Kalam', cursive;
+            font-style: italic; 
+            font-weight: 400;
+        }
+        
+        h2{
+            font-family: 'Fredericka the Great', cursive;
+            font-weight: normal;
+        }
+
+        h3{
+            font-family: 'dash';
+            font-weight: normal;
+            font-size: 23px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque ab nam, consectetur beatae numquam aut veniam earum neque, eveniet consequatur obcaecati saepe eius aliquam a commodi atque laudantium quis vitae!</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sint fugiat est fuga excepturi temporibus dolores id? Culpa sed placeat qui dolorum vero accusantium magni? Ex nesciunt consectetur voluptatum laudantium?</p>
+    <h3>Título</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime pariatur animi nesciunt, dolores dolorum ea labore non, architecto, recusandae laborum cumque? Earum ut obcaecati molestiae nobis quis corporis officia optio.</p>
+</body>
+</html>
